@@ -14,17 +14,12 @@
               <v-icon dark>{{item.icon}}</v-icon>
             </v-list-tile-avatar>
             <v-list-tile-content>
-              <v-list-tile-sub-title v-html="item.title"></v-list-tile-sub-title>
+              <v-list-tile-title v-html="item.title"></v-list-tile-title>
+              <v-list-tile-sub-title v-html="item.timeLabel"></v-list-tile-sub-title>
             </v-list-tile-content>
-            <v-list-tile-action class="caption">
-              {{item.timeLabel}}
-            </v-list-tile-action>
           </v-list-tile>
         </template>
       </v-list>
-      <v-divider></v-divider>
-      <v-btn block flat class="ma-0">All</v-btn>
-      <v-divider></v-divider>
     </v-card-text>
   </v-card>
 </template>

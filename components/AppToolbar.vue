@@ -15,14 +15,6 @@
     <v-btn icon @click="handleFullScreen()">
       <v-icon>fullscreen</v-icon>
     </v-btn>
-    <v-btn-toggle v-model="view">
-      <v-btn flat value="list">
-        <v-icon color="primary">view_headline</v-icon>
-      </v-btn>
-      <v-btn flat value="grid">
-        <v-icon color="primary">view_list</v-icon>
-      </v-btn>
-    </v-btn-toggle>
   </v-toolbar>
 </template>
 <script>
